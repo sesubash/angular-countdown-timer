@@ -1,0 +1,20 @@
+{
+  "name": "angular-countdown-timer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./angular-countdown-timer.js",
+  "ignore": [],
+  "dependencies": {},
+  "homepage": "https://github.com/sesubash/angular-countdown-timer",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.0",
+    "commit": "cd353693d20736baa44fb44f65f8f573ef6e8e18"
+  },
+  "_source": "https://github.com/sesubash/angular-countdown-timer.git",
+  "_target": "^1.0.0",
+  "_originalSource": "angular-countdown-timer",
+  "_direct": true,
+  "authors": "Subash Selvaraj <sesubash@gmail.com> (http://subashselvaraj.com)"
+}
