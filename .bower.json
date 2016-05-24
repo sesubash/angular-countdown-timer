@@ -1,5 +1,5 @@
 {
-  "name": "angular-countdown-timer",
+  "name": "angular-moment-countdown-timer",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./angular-countdown-timer.js",
