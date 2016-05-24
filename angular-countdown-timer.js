@@ -13,6 +13,10 @@ angular.module("sesu.countdown", [])
         template:"<span ng-bind-html='formatted'></span>",
         link: function ($scope, $elem, $attrs) {
             if ($scope.countdown == 0) {
+                if (angular.isDefined($scope.finishCallback)) {
+                    //$scope.finishCallback();
+                    $scope.$eval($scope.finishCallback);
+                }
                 return;
             }
             var milliseconds, timer;
